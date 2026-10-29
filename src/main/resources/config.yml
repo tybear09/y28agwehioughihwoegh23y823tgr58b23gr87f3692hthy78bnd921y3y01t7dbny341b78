@@ -1,0 +1,8 @@
+# Highest power level. The "power 7" bonuses unlock at this level.
+max-power: 10
+
+# Power gained by the killer when they kill a player
+power-gain-on-kill: 1
+
+# Power lost by a player when they die to another player
+power-loss-on-death: 1
