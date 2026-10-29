@@ -1,0 +1,14 @@
+name: ThiefSMP
+version: '${project.version}'
+main: com.thiefsmp.ThiefSMP
+api-version: '26.1.2'
+description: Thief SMP By TyTheTyTy - collect, claim, grow and survive with elemental Hearts. 
+commands:
+  thiefsmp:
+    description: Thief SMP main command
+    usage: /<command> <start|stop|set|power|give|reroll|info|list>
+    aliases: [theifsmp, tsmp]
+permissions:
+  thiefsmp.admin:
+    description: Lets you start/stop the SMP and manage hearts
+    default: op
